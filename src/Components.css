@@ -1,0 +1,32 @@
+/* LOGO */
+.logo {
+  height: 3.25rem;
+}
+
+/* SEARCH */
+
+.search .search__input {
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+  background-color: whitesmoke;
+  margin: -2rem;
+  border-radius: 20px;
+  height: 3rem;
+  width: 20rem;
+  border: none;
+  padding: 0.8rem;
+  box-shadow: 1px 1px 2px 2px rgba(0, 0, 0, 0.15);
+  transition: all 0.1s ease-in;
+}
+
+.search .search__input:hover {
+  transform: scale(1.1);
+  outline: none;
+  background-color: #333;
+}
+
+.user-nav .user-nav__user-photo {
+  height: 3.75rem;
+  border-radius: 5px;
+}

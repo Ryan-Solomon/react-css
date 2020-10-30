@@ -43,16 +43,21 @@ body {
 
 .container {
   margin: 8rem auto;
-  background: var(--color-grey-dark-3);
+  background: var(--color-grey-light-1);
   min-height: 50rem;
   max-width: 120rem;
   box-shadow: 1px 1px 10px 5px rgba(0, 0, 0, 0.3);
 }
 
 .header {
-  background: var(--color-grey-dark-2grey-light-1);
+  background: var(--color-grey-light-1);
+  font-size: 1.4rem;
   height: 7rem;
   border-bottom: var(--color-grey-light-2);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
 }
 
 .content {
