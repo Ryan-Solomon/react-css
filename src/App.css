@@ -40,3 +40,31 @@ body {
   min-height: 100vh;
   color: var(--color-grey-dark-2);
 }
+
+.container {
+  margin: 8rem auto;
+  background: var(--color-grey-dark-3);
+  min-height: 50rem;
+  max-width: 120rem;
+  box-shadow: 1px 1px 10px 5px rgba(0, 0, 0, 0.3);
+}
+
+.header {
+  background: var(--color-grey-dark-2grey-light-1);
+  height: 7rem;
+  border-bottom: var(--color-grey-light-2);
+}
+
+.content {
+  display: flex;
+}
+
+.sidebar {
+  background: var(--color-grey-dark-1);
+  flex: 0 0 18%;
+}
+
+.hotel-view {
+  background: var(--color-primary);
+  flex: 1;
+}
